@@ -165,3 +165,42 @@ body {
     left: -50px;
 }
 /* experience-area end */
+
+.facts {
+    padding: 50px 100px;
+}
+.facts h1 {
+    margin: 20px 0px;
+}
+
+/* work area start */
+.work-area {
+    padding: 50px 200px;
+}
+.work-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+.work-card .card {
+    border: 1px solid red;
+    padding: 20px 25px;
+    text-align: center;
+    transition: 1s;
+}
+.work-card .card h1 {
+    margin: 7px 0px;
+}
+.work-card .card img {
+    transition: 1s ease-out;
+}
+.work-card .card:hover img{
+    transform: rotate(360deg);
+}
+.work-card .card:hover {
+    background: rgba(0, 128, 0, 0.287);
+    color: tomato;
+    border: 0;
+}
+/* work area end */
