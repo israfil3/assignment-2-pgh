@@ -1,13 +1,14 @@
-* {
-    padding: 0px;
-    margin: 0px;
+ * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
+    
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 /* nav area start */
@@ -185,6 +186,7 @@ body {
 }
 .work-card .card {
     border: 1px solid red;
+    border-radius: 7px;
     padding: 20px 25px;
     text-align: center;
     transition: 1s;
@@ -204,3 +206,173 @@ body {
     border: 0;
 }
 /* work area end */
+
+
+/* sponsor area start */
+
+.sponsor-area {
+   
+}
+.sponsor-content {
+    text-align: center;
+}
+.sponsor-content h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+.sponsor-content p {
+    color: #727272;
+}
+.sponsor-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.sponsor-brand .brand {
+    margin-right: 50px;
+    filter: grayscale(100%);
+    color: red;
+}
+/* sponsor area end */
+
+/* extra section start */
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 200px;
+    gap: 40px;
+}
+.about-me .about-content h1{
+    color: orange;
+    margin-bottom: 15px;
+}
+.about-me .about-content h2 {
+    color: rgb(195, 0, 255);
+    margin-bottom: 15px;
+}
+.about-img img {
+    width: 400px;
+    height: 500px;
+}
+
+
+/* extra section end */
+
+/* footer area start */
+.fotter-area {
+    padding: 30px 150px;
+}
+.last-area {
+    text-align: center;
+    background: rgba(255, 217, 0, 0.368);
+    padding: 40px 0px;
+    font-size: 20px;
+    margin-top: 70px;
+}
+/* footer area end */
+@media screen and (max-width: 557px) {
+    .nav-area {
+        padding: 20px 0px;
+    }
+  .nav-bar {
+    flex-direction: column;
+    padding: 0px;
+
+  }
+  .nav-bar .logo {
+    font-size: 20px;
+    text-align: center;
+  }
+  .nav-icon ul{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .nav-icon ul li {
+    margin-bottom: 10px;
+  }
+  .nav-banner {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .banner-img img{
+    padding: 0px 20px;
+    width: 100%;
+    
+  }
+  .plan-area {
+    flex-direction: column-reverse;
+    padding: 10px 10px;
+  }
+  .plan-area .plan-img {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .plan-content {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .experience-area {
+    padding: 0px;
+  }
+  
+ .experience {
+    flex-direction: column;
+    padding: 10px 20px;
+ } 
+
+ .experience .experience-heading {
+    text-align: center;
+ }
+ .experience .experience-img img {
+    width: 100%;
+ }
+ .experience-time {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;   
+  }
+   .facts {
+    padding: 10px 30px;
+    text-align: center;
+   }
+ .work-card{
+   flex-direction: column; 
+   
+ }
+ .work-card .card {
+    margin-top: 20px;
+ }
+  .sponsor-area .sponsor-content {
+    padding: 10px 20px;
+ }
+ .sponsor-brand {
+    flex-direction: column;
+ }
+ .brand {
+    margin: 20px 0px
+ }
+ .about-me {
+    flex-direction: column;
+    padding: 10px 20px;
+ }
+ .about-content {
+    text-align: center;
+ }
+ .about-img img{
+    width: 100%;
+ }
+
+ .fotter-area {
+    padding: 0px;
+ }
+
+
+}
